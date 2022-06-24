@@ -1,0 +1,48 @@
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+    <title>Phoenix Cloud</title>
+    <style>
+*
+{
+    background-image: linear-gradient( 236deg , #74ebd5, #acb6e5);
+	padding: 10px;
+    
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+.message_input {
+    margin-left: 18%;
+    width: 60%;
+    height: 54px;
+    text-align:left;
+    background: #f1f6f8;
+    border: none;
+    outline: none;
+    padding-left: 34px;
+}
+.submit{
+    width: 120px;
+    height: 60px;
+    background: #b604ec;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 550px;
+    margin-top: 5px;
+}
+
+
+    </style>
+</head>
+
+
+<form action="https://localhost/insert.php" target="_blank" method="post">
+    <p><input class="message_input type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="message_input" type="text" placeholder="Email" required name="Email"></p>
+    <p><input class="message_input" type="Number" placeholder="Phone_no" required name="Phone_no"></p>
+    <p><input class="message_input" type="text" placeholder="Message" required name="Message"></p>
+    <p><input type="submit" class="submit" value="Submit" name="submit"></p>
+</form>
